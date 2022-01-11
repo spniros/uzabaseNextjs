@@ -1,0 +1,135 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 50%;
+  height: 400px;
+  /* background-color: yellow; */
+  border: 1px solid gray;
+}
+.wizard-step{
+width: 200px;
+float: left;
+}
+.wizard-point{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border:1px solid gray;
+  background-color: #8e8989;
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+ color:white;
+ line-height: 1.5;
+ 
+}
+.wizard-title{
+  float: left;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.clear{
+  clear: both;
+
+}
+.text-center{
+  text-align: center;
+}
+.wizard-cover{
+  width: 600px;
+  margin:auto
+}
+
+.form-input{
+  width: 100%;
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+    margin-bottom: 20px;
+}
+.form-input:focus-visible {
+  outline: none;
+
+  
+}
+.form-input:focus {
+  border-color: green;
+
+  
+}
+
+.btn-success{
+  background-color:  #1fbdcb;
+  color:white;
+  padding: 10px;
+  border:none;
+  border-radius: 5px;
+  height: 40px;
+}
+.btn-success-outline{
+  background-color:  #8bd8df;
+  color:#1fbdcb;
+  padding: 10px;
+  border:1px solid  #1fbdcb;
+  border-radius: 5px;
+  height: 40px;
+}
+
+
+.cover-field{
+  width: 600px;
+  margin: auto;
+
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.ml-10{
+  margin-left: 10px;
+}
+
+.active{
+  background-color: #1fbdcb !important;
+border-color:#1fbdcb !important; ;
+}
+
+.label-detail{
+  float: left;
+  
+  
+
+}
+
+.label-form{
+  float: left;
+  width: 200px;
+  font-weight: bold;
+  margin: 5px;
+  
+
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.error-line{
+  border-bottom: 1px solid red !important;
+}
